@@ -25,6 +25,10 @@ nav div {
     justify-content: flex-start;
 }
 
-#images {
+#img {
+    grid-column: 2/3;
+}
+
+#home {
     margin-left: auto;
 }
