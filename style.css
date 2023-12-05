@@ -1,15 +1,30 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    background-color: blue;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+    color: white;
 }
 
 nav {
-    grid-column: 1/3;
-    background-color: teal;
-    
+    grid-column: 1/4;
+    background-color: gold;
 }
 
 nav div {
     margin: 10px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#images {
+    margin-left: auto;
 }
