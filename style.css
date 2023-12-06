@@ -32,6 +32,15 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    margin: 8px;
+    font-size: larger;
+}
+
+#img {
+    grid-column: 2/3;
+}
+
 nav {
     grid-column: 1/4;
     background-color: gold;
