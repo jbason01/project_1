@@ -1,7 +1,10 @@
 body {
+    background-color: black;
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    background-color: black;
 }
 
 h1 {
@@ -10,6 +13,18 @@ h1 {
     grid-column: 2/3;
     color: white;
     object-fit: contain;
+}
+
+#imgh2 {
+    display: flex
+    
+}
+
+h2 {
+    color: black;
+    margin: 0;
+    font-size: 110%;
+    justify-content: center;
 }
 
 nav {
@@ -23,11 +38,8 @@ nav div {
 
 .flex-nav {
     display: flex;
-    justify-content: flex-start;
-}
-
-#home {
-    margin-left: auto;
+    justify-content: space-between;
+    grid-column: 1/4;
 }
 
 #img {
@@ -44,4 +56,9 @@ img {
     height:100%;
     display: block;
     object-fit: cover;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
