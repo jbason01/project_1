@@ -27,6 +27,11 @@ h2 {
     justify-content: center;
 }
 
+h3 {
+    color: gold;
+    text-align: center;
+}
+
 nav {
     grid-column: 1/4;
     background-color: gold;
@@ -42,10 +47,6 @@ nav div {
     grid-column: 1/4;
 }
 
-#img {
-    grid-column: 2/3;
-}
-
 p {
     color: white;
     text-indent: 35px;
@@ -58,7 +59,7 @@ img {
     object-fit: cover;
 }
 
-#gallery {
+.gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 450px 450px;
